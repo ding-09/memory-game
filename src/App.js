@@ -1,13 +1,13 @@
 import './App.css';
-import Card from './components/Card';
-import takoyaki from './images/takoyaki.jpg';
+import CardContainer from './components/CardContainer';
+
 
 import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <Card img={takoyaki} />
+      <CardContainer />
     </div>
   );
 }
