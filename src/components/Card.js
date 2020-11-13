@@ -1,12 +1,19 @@
 import React from 'react';
 
 function Card(props) {
-  const { img } = props;
+  const {
+    card: { src, title, backgroundColor, borderStyle },
+  } = props;
+
+  const cardStyle = {
+    backgroundColor: backgroundColor,
+    border: borderStyle,
+  };
   return (
-    <div className="card">
+    <div className="card" style={cardStyle}>
       <figure>
-        <img src={img} alt="food" />
-        <figcaption>Food</figcaption>
+        <img src={src} alt={title} />
+        <figcaption>{title}</figcaption>
       </figure>
     </div>
   );

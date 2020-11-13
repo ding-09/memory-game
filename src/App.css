@@ -7,18 +7,18 @@
 .card-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 260px);
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
   justify-content: space-around;
-  grid-gap: 20px;
+  grid-gap: 10px;
   border: 1px solid red;
 }
 
 .card {
   text-align: center;
-  background-color: #ffdb7a;
   color: white;
   font-size: 19px;
-  border: 1px solid #ffdb7a;
+  margin-bottom: 20px;
   padding: 15px;
   border-radius: 5px;
   font-weight: 800;
