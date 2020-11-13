@@ -17,78 +17,77 @@ function CardContainer() {
   const images = [
     {
       src: takoyaki,
-      title: "Takoyaki",
-      backgroundColor: "rgb(255 223 137)",
-      borderStyle: "1px solid rgb(255 223 137)"
+      title: 'Takoyaki',
+      backgroundColor: 'rgb(255 223 137)',
+      borderStyle: '1px solid rgb(255 223 137)',
     },
     {
       src: boba,
-      title: "Boba",
-      backgroundColor: "rgb(54 145 154)",
-      borderStyle: "1px solid rgb(54 145 154)"
+      title: 'Boba',
+      backgroundColor: 'rgb(54 145 154)',
+      borderStyle: '1px solid rgb(54 145 154)',
     },
     {
       src: steak,
-      title: "Steak",
-      backgroundColor: "rgb(119 4 4)",
-      borderStyle: "1px solid rgb(119 4 4)"
+      title: 'Steak',
+      backgroundColor: 'rgb(119 4 4)',
+      borderStyle: '1px solid rgb(119 4 4)',
     },
     {
       src: zongzi,
-      title: "Zongzi",
-      backgroundColor: "rgb(76 136 89)",
-      borderStyle: "1px solid rgb(76 136 89)"
+      title: 'Zongzi',
+      backgroundColor: 'rgb(76 136 89)',
+      borderStyle: '1px solid rgb(76 136 89)',
     },
     {
       src: dimsum,
-      title: "Dimsum",
-      backgroundColor: "rgb(111 31 0)",
-      borderStyle: "1px solid rgb(111 31 0)"
+      title: 'Dimsum',
+      backgroundColor: 'rgb(111 31 0)',
+      borderStyle: '1px solid rgb(111 31 0)',
     },
     {
       src: ramen,
-      title: "Ramen",
-      backgroundColor: "rgb(255 141 0)",
-      borderStyle: "1px solid rgb(255 141 0)"
+      title: 'Ramen',
+      backgroundColor: 'rgb(255 141 0)',
+      borderStyle: '1px solid rgb(255 141 0)',
     },
     {
       src: crawfish,
-      title: "Crawfish",
-      backgroundColor: "rgb(52 52 60)",
-      borderStyle: "1px solid rgb(52 52 60)"
+      title: 'Crawfish',
+      backgroundColor: 'rgb(52 52 60)',
+      borderStyle: '1px solid rgb(52 52 60)',
     },
     {
       src: sushi,
-      title: "Sushi",
-      backgroundColor: "rgb(245 194 80)",
-      borderStyle: "1px solid rgb(245 194 80)"
+      title: 'Sushi',
+      backgroundColor: 'rgb(245 194 80)',
+      borderStyle: '1px solid rgb(245 194 80)',
     },
     {
       src: chickenRice,
-      title: "Chicken Rice",
-      backgroundColor: "rgb(136 96 6)",
-      borderStyle: "1px solid rgb(136 96 6)"
+      title: 'Chicken Rice',
+      backgroundColor: 'rgb(136 96 6)',
+      borderStyle: '1px solid rgb(136 96 6)',
     },
     {
       src: matcha,
-      title: "Matcha Drink",
-      backgroundColor: "rgb(255 148 148)",
-      borderStyle: "1px solid rgb(255 148 148)"
+      title: 'Matcha Drink',
+      backgroundColor: 'rgb(255 148 148)',
+      borderStyle: '1px solid rgb(255 148 148)',
     },
     {
       src: curry,
-      title: "Curry",
-      backgroundColor: "rgb(189 166 82)",
-      borderStyle: "1px solid rgb(189 166 82)"
+      title: 'Curry',
+      backgroundColor: 'rgb(189 166 82)',
+      borderStyle: '1px solid rgb(189 166 82)',
     },
     {
       src: hotpot,
-      title: "Hotpot",
-      backgroundColor: "rgb(226 143 58)",
-      borderStyle: "1px solid rgb(226 143 58)"
+      title: 'Hotpot',
+      backgroundColor: 'rgb(226 143 58)',
+      borderStyle: '1px solid rgb(226 143 58)',
     },
   ];
-
 
   return (
     <div className="card-container">

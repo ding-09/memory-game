@@ -2,6 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Hind', sans-serif;
+}
+
+html {
+  background: rgb(4, 4, 4);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 4, 4, 0.8295693277310925) 18%,
+    rgba(8, 7, 7, 1) 100%
+  );
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+}
+
+.main-title {
+  font-size: 38px;
+}
+
+.score-board {
+  width: 200px;
+  font-size: 20px;
+}
+
+.current-score {
+  display: inline-block;
+}
+
+.best-score {
+  display: inline-block;
+  float: right;
 }
 
 .card-container {
@@ -11,7 +47,6 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
   justify-content: space-around;
   grid-gap: 10px;
-  border: 1px solid red;
 }
 
 .card {
