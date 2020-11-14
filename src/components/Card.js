@@ -2,7 +2,8 @@ import React from 'react';
 
 function Card(props) {
   const {
-    card: { src, title, backgroundColor, borderStyle },
+    image: { src, title, backgroundColor, borderStyle },
+    changeScore
   } = props;
 
   const cardStyle = {
@@ -10,12 +11,12 @@ function Card(props) {
     border: borderStyle,
   };
   return (
-    <div className="card" style={cardStyle}>
+    <button className="card" style={cardStyle} onClick={changeScore}>
       <figure>
         <img src={src} alt={title} />
         <figcaption>{title}</figcaption>
       </figure>
-    </div>
+    </button>
   );
 }
 

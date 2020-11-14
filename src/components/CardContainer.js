@@ -13,7 +13,9 @@ import chickenRice from '../images/chicken-rice.png';
 import crawfish from '../images/crawfish.png';
 import steak from '../images/steak.png';
 
-function CardContainer() {
+function CardContainer(props) {
+  const { changeScore } = props;
+
   const images = [
     {
       src: takoyaki,
@@ -90,20 +92,11 @@ function CardContainer() {
   ];
 
   return (
-    <div className="card-container">
-      <Card card={images[0]} />
-      <Card card={images[1]} />
-      <Card card={images[2]} />
-      <Card card={images[3]} />
-      <Card card={images[4]} />
-      <Card card={images[5]} />
-      <Card card={images[6]} />
-      <Card card={images[7]} />
-      <Card card={images[8]} />
-      <Card card={images[9]} />
-      <Card card={images[10]} />
-      <Card card={images[11]} />
-    </div>
+    <>
+      {images.map((image) => (
+        <Card image={image} changeScore={changeScore}/>
+      ))}
+    </>
   );
 }
 

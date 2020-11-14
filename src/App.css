@@ -52,6 +52,8 @@ html {
 .card {
   text-align: center;
   color: white;
+  outline: none; 
+  cursor: pointer;
   font-size: 19px;
   margin-bottom: 20px;
   padding: 15px;
