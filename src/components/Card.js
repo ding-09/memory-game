@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card(props) {
   const {
-    image: { src, title, backgroundColor, borderStyle },
+    card: { src, title, backgroundColor, borderStyle },
     changeScore
   } = props;
 

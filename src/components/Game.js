@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CardContainer from './CardContainer';
 import Header from './Header';
 
@@ -13,7 +13,7 @@ function Game() {
     <>
       <Header score={score} />
       <div className="card-container" id="card-container">
-        <CardContainer changeScore={changeScore} />
+        <CardContainer changeScore={changeScore} score={score} />
       </div>
     </>
   );

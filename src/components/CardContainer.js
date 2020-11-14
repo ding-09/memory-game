@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Card from './Card';
 import takoyaki from '../images/takoyaki.jpg';
 import boba from '../images/boba.jpg';
@@ -14,9 +14,9 @@ import crawfish from '../images/crawfish.png';
 import steak from '../images/steak.png';
 
 function CardContainer(props) {
-  const { changeScore } = props;
+  const { changeScore, score } = props;
 
-  const images = [
+  let images = [
     {
       src: takoyaki,
       title: 'Takoyaki',
@@ -91,10 +91,25 @@ function CardContainer(props) {
     },
   ];
 
+  const [cards, setNewCards] = useState(images);
+
+  const shuffle = (newCards) => {
+    for (let i = newCards.length - 1; i > 0; i--) {
+      let randomIdx = Math.floor(Math.random() * i);
+      [newCards[randomIdx], newCards[i]] = [newCards[i], newCards[randomIdx]];
+    }
+  };
+
+  useEffect(() => {
+    const newCards = [...cards];
+    shuffle(newCards);
+    setNewCards(newCards);
+  }, [score]);
+
   return (
     <>
-      {images.map((image) => (
-        <Card image={image} changeScore={changeScore}/>
+      {cards.map((card) => (
+        <Card card={card} key={card.title} changeScore={changeScore} />
       ))}
     </>
   );
