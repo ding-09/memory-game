@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.a9d330a2.chunk.css",
+    "main.js": "/memory-game/static/js/main.27327f08.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.27327f08.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.0c67dbb2.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.0c67dbb2.js.map",
+    "static/js/2.cf36c163.chunk.js": "/memory-game/static/js/2.cf36c163.chunk.js",
+    "static/js/2.cf36c163.chunk.js.map": "/memory-game/static/js/2.cf36c163.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "static/css/main.a9d330a2.chunk.css.map": "/memory-game/static/css/main.a9d330a2.chunk.css.map",
+    "static/js/2.cf36c163.chunk.js.LICENSE.txt": "/memory-game/static/js/2.cf36c163.chunk.js.LICENSE.txt",
+    "static/media/boba.9c68dbc4.jpg": "/memory-game/static/media/boba.9c68dbc4.jpg",
+    "static/media/chicken-rice.612ae76f.png": "/memory-game/static/media/chicken-rice.612ae76f.png",
+    "static/media/crawfish.7ceecee8.png": "/memory-game/static/media/crawfish.7ceecee8.png",
+    "static/media/curry.c7cc4197.jpg": "/memory-game/static/media/curry.c7cc4197.jpg",
+    "static/media/dimsum.526a0f08.jpg": "/memory-game/static/media/dimsum.526a0f08.jpg",
+    "static/media/hotpot.b20d547d.jpg": "/memory-game/static/media/hotpot.b20d547d.jpg",
+    "static/media/matcha.529e5fb0.jpg": "/memory-game/static/media/matcha.529e5fb0.jpg",
+    "static/media/ramen.aec29cb1.jpg": "/memory-game/static/media/ramen.aec29cb1.jpg",
+    "static/media/steak.3deb7bd5.png": "/memory-game/static/media/steak.3deb7bd5.png",
+    "static/media/sushi.6cd79316.png": "/memory-game/static/media/sushi.6cd79316.png",
+    "static/media/takoyaki.0bf3f04b.jpg": "/memory-game/static/media/takoyaki.0bf3f04b.jpg",
+    "static/media/zongzi.d00f086f.jpg": "/memory-game/static/media/zongzi.d00f086f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c67dbb2.js",
+    "static/js/2.cf36c163.chunk.js",
+    "static/css/main.a9d330a2.chunk.css",
+    "static/js/main.27327f08.chunk.js"
+  ]
+}
