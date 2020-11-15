@@ -14,7 +14,7 @@ import crawfish from '../images/crawfish.png';
 import steak from '../images/steak.png';
 
 function CardContainer(props) {
-  const { changeScore, score } = props;
+  const { handleGameLogic, score, highScore } = props;
 
   let images = [
     {
@@ -104,12 +104,12 @@ function CardContainer(props) {
     const newCards = [...cards];
     shuffle(newCards);
     setNewCards(newCards);
-  }, [score]);
+  }, [score, highScore]);
 
   return (
     <>
       {cards.map((card) => (
-        <Card card={card} key={card.title} changeScore={changeScore} />
+        <Card card={card} key={card.title} handleGameLogic={handleGameLogic} />
       ))}
     </>
   );
